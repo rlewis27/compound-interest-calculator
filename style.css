@@ -1,0 +1,45 @@
+h1 {
+  grid-column: 1 / span 2;
+  position: relative;
+  top: -10px;
+  color: rgb(249, 203, 255);
+  text-align: center;
+  background-color: rgba(255, 99, 71, 0.466);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.288);
+  padding: 5px;
+  border: 2px solid black;
+  border-style: double;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+h1:hover {
+  transform: rotate(2880deg);
+}
+
+#calculator {
+  margin: auto;
+  width: auto;
+  padding: 10px;
+  border: 30px black;
+  font-size: 20px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 400px 50px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+body {
+  color: azure;
+  font-family: cursive;
+  margin: 10px;
+  background-image: linear-gradient(rgb(255, 162, 118), purple);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#final {
+  color: white;
+  border-color: black;
+}
